@@ -1,0 +1,48 @@
+.para{
+    color: blue;
+}
+
+.container{
+    display: flex;
+}
+.child{
+    width: 50%;
+}
+@media (max-width:600px) {
+    .container{
+        flex-direction: column;
+    }
+}
+.box{
+    font-size: 20px;
+}
+.box p{
+    font-size: 2rem;
+}
+.box h1{
+    font-size: 2em;
+}
+.responsive-button{
+    width: 200px;
+}
+@media (max-width:500px) {
+    .responsive-button{
+        width: 100px;
+    }
+}
+
+.box1{
+    color: blue;
+}
+.box1:hover{
+    color: red;
+}
+.text-blue{
+    color: blue;
+}
+#text-red{
+    color: red;
+}
+.box2{
+    opacity:0;
+}

@@ -1,0 +1,236 @@
+body{
+    padding: 50px;
+    padding-left: 100px;
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-direction: row;
+    gap: 20px; 
+}
+nav > div{
+    padding-top: 16px;
+    cursor: pointer;   
+}
+nav > p{
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.contact > p{
+    display: flex;
+    flex-direction: row;
+    color:blue;
+    padding-left: 400px;
+    cursor: pointer;
+}
+.contact > span{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.side{
+    padding-top: 10px;
+    position: static;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.side > div{
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+    transition: blue 0.3s;
+    cursor: pointer;
+}
+.side > div > i{
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+}
+.side > div > span{
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.side > div > span:hover{
+    color: rgb(214, 11, 11);
+}
+.body1{
+    display: flex;
+}
+.content{
+    padding-left: 200px;
+    padding-top: 30px;
+}
+.reg{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.card {
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 800px;
+    height: 40px;
+    background-color: yellow;
+
+}
+.card > p{
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    text-align: center;
+    
+}
+.mid {
+    border: 1px solid;
+    background-color: white;
+}
+.mid > .boot >span{
+    font-size: 12px;
+    padding: 3px;
+    margin-left:5px ;
+    border: 1px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+.mid > .boot{
+    margin-left:30px;
+}
+.mid > .course{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.footer{
+    display: flex;
+    border-bottom-right-radius: 30px;
+}
+.footer > .view{
+    flex: 1;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #222;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+    border-bottom-left-radius: 10px;
+}
+.footer > .register{
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid black;
+    border-bottom-right-radius: 10px;
+}
+.footer i{
+    margin-left: 8px;
+}
+
+.content2{
+    padding-left: 200px;
+    padding-top: 30px;
+}
+.card2 {
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 800px;
+    height: 40px;
+    background-color: yellow;
+}
+.card2 > p{
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    text-align: right;   
+}
+.mid2 {
+    border: 1px solid;
+    background-color: white;
+}
+.mid2 > .boot{
+    margin-left:30px;
+}
+.mid2 > .course{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.mid2 > .boot2{
+    margin-left:30px;
+    margin-bottom: 50px;
+}
+
+.footer2{
+    display: flex;
+    border-bottom-right-radius: 30px;
+}
+.footer2 > .view{
+    flex: 1;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #222;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+    border-bottom-left-radius: 10px;
+}
+.footer2 > .start{
+    flex: 1;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #222;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+    
+}
+.footer2 > .register{
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid black;
+    border-bottom-right-radius: 10px;
+}
+.footer2 i{
+    margin-left: 8px;
+}
